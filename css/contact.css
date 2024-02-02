@@ -1,0 +1,40 @@
+header .pages .contact {
+  text-decoration: underline;
+  color: #0ff;
+  text-underline-offset: 7px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+h1{
+  font-size: 50px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+.container .google-map iframe{
+  border:0;
+}
+.container .links{
+  display: flex;
+  flex-direction: column;
+}
+.location span a{
+  font-size: 9px;
+}
+.email span a{
+  font-size: 14px;
+}
+@media (max-width:760px) {
+  .container{
+    flex-direction: column;
+  }
+  .container .map{
+    width: 300px;
+  }
+}

@@ -1,0 +1,36 @@
+footer{
+    background-color: #111;
+    color: #fff;
+    height: 200px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer .contact .contact-way{
+    display: flex;
+    gap: 10px;
+}
+footer .work-days tr{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+footer .work-days tr .red-text{
+    color: #f00;
+}
+@media (max-width:760px) {
+    footer{
+        flex-direction: column;
+        height: 300px;
+    }
+    footer .work-days tr{
+        width: 300px;
+    }
+}
